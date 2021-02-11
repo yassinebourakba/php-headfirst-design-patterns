@@ -1,0 +1,19 @@
+{
+    "name": "yassinebourakba/php-headfirst-design-patterns",
+    "type": "library",
+    "description": "PHP implementation for Headfirst Design Patterns Examples.",
+	"keywords": ["php", "headfirst", "design", "patterns"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yassine Bourakba",
+            "email": "bourakbayassine@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
