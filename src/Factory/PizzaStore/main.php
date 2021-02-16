@@ -1,9 +1,9 @@
 <?php
 
-use App\Factory\FactoryMethod\PizzaStore\Stores\RabatPizzaStore;
-use App\Factory\FactoryMethod\PizzaStore\Stores\TetouanPizzaStore;
+require __DIR__.'/../../../vendor/autoload.php';
 
-require __DIR__.'/../../../../vendor/autoload.php';
+use App\Factory\PizzaStore\Stores\RabatPizzaStore;
+use App\Factory\PizzaStore\Stores\TetouanPizzaStore;
 
 $store_rabat = new RabatPizzaStore();
 $store_rabat->orderPizza('quatre fromages');

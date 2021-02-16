@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Factory\FactoryMethod\PizzaStore\Stores;
+namespace App\Factory\PizzaStore\Stores;
 
-use App\Factory\FactoryMethod\PizzaStore\Pizza\APizza;
+use App\Factory\PizzaStore\Pizza\APizza;
 
 abstract class APizzaStore
 {
