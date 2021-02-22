@@ -25,6 +25,8 @@ PHP implementation for `Headfirst Design Patterns` book examples.
 [_Class Diagram_](src/Factory/abstract_factory_class_diagram.png)
 > **Definition** 
 > > provides an interface for creating families of related or dependent objects without specifying their concrete classes.
->
-> **OO Principle**
-> > Depend upon abstractions. Do not depend upon concrete classes.
+
+#### Singleton
+[_Class Diagram_](src/Singleton/singleton_class_diagram.png)
+> **Definition** 
+> > Ensures that a class has only one instance, and provides a global point of access to it.
